@@ -77,7 +77,7 @@ public static class Utilities
 
         int hour = random.Next(0, 24);
         int minutes = random.Next(0, 60);
-        return new DateTime(year, month, day, hour, 0 , 0);
+        return new DateTime(year, month, day, hour, minutes , 0);
     }
 
     public static DateTime GetRandomEndDateTime(DateTime startDateTime)

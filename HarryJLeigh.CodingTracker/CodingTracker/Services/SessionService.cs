@@ -89,7 +89,6 @@ public class SessionService
     {
         DateTime? startDate = null;
         string? useFilter = null;
-        string? orderDirection = null;
         FilterOptions? filterChoice = null;
 
         var reportChoice = AnsiConsole.Prompt(
